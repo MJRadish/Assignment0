@@ -1,3 +1,5 @@
+//Hash Table Third Assignment
+
 #include <stdlib.h>
 #include <unistd.h>
 #include <stdio.h>
@@ -8,6 +10,7 @@
 #include <ctype.h>
 #include <string.h>
 #include <stdbool.h>
+
 typedef struct DecreaseHash_{
 
 unsigned int data;
