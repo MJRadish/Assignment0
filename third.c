@@ -1,4 +1,4 @@
-//Hash Table Third Assignment
+//Hash Table Third Assignment (For Any integer, Table size is compressed to 10000)
 
 #include <stdlib.h>
 #include <unistd.h>
