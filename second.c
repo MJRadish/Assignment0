@@ -1,3 +1,5 @@
+//Non-Static Array Second Assignment
+
 #include <stdlib.h>
 #include <unistd.h>
 #include <stdio.h>
@@ -17,7 +19,7 @@ void printArray();
 void LessThanPNER(int ptr, int prev, int Array[], int data );
 void GreaterThanPER(int ptr, int prev, int Array[], int data);
 */
-void sort();
+void Selectsort();
 char* AllData;
 int size;
 int* Array;
@@ -157,7 +159,7 @@ printf("BEFORE SORT\n");
 
 printArray();
 
-sort();
+Selectsort();
 
 printf("AFTER SORT\n");
 printArray();
@@ -255,112 +257,8 @@ e++;
 
 return;
 }
-//
-/*
-void LessThanPER(int ptr, int prev, int Array[], int data){
 
-int SIZE = sizeof(Array)/sizeof(Array[0]);
-int lengthPrev = prev+1;
-int lengthR = ptr+1;
-
-int sizeY=lengthPrev;
-
-int sizeZ= SIZE-(lengthPrev);
-
-int MakeA[sizeY+sizeZ+1];
-
-int y = 0;
-while(y<=prev){
-
-MakeA[y]=Array[y];
-:////UP TO THRESHOLD
-printf("MakeA %d", MakeA[y]);
-y++;}
-
-////MidPoint
-printf("midpoint is: %d\n", y);
-MakeA[y]=data;
-printf("MakeA %d", MakeA[y]);
-int z = y;
-while(z<SIZE){
-
-MakeA[z+1]=Array[z];
-printf("MakeA %d", MakeA[z+1]);
-z++;
-}
-Array[sizeY+sizeZ+1];
-/////////////////////////////////////////////////////////////////FIX!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-int t=0;
-int NewSize = sizeof(Array)/sizeof(Array[0]);
-while(t<NewSize){
-Array[t]=MakeA[t];
-printf("MakeAGGGGg %d", MakeA[t]);
-t++;
-}
-
-printf("NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN");
-return;
-}
-
-void LessThanPNER(int ptr, int prev, int Array[], int data){
-int SIZE = sizeof(Array)/sizeof(Array[0]); 
-int lengthPrev = prev+1;
-int lengthR = ptr+1;
-
-int MakeA[SIZE+1];
-
-///////////////////////////////////////////////////////
-
-MakeA[0]=data;
-
-int q = 1; //NEXT
-int r = 0; //OROGIN
-int SIZEMAKE = sizeof(MakeA)/sizeof(MakeA[ptr]);
-
-while(q<SIZE){
-MakeA[q]=Array[r];
-r++;
-q++;
-}
-
-int t=0;
-Array[SIZEMAKE];
-while(t<SIZEMAKE){
-Array[t]=MakeA[t];
-printf("ARray %d", Array[t]);
-t++;
-}
-
-printf("MMMMMMMMMMMMMMMMMMMMMMMMMMMM");
-return;
-}
-
-void GreaterThanPER(int ptr, int prev, int Array[], int data){
-
-int SizeB = sizeof(Array)/sizeof(Array[0]);
-int temp[SizeB+1];
-int SizeT=sizeof(temp)/sizeof(temp[0]);
-int s=0;
-
-while(s<SizeB){
-temp[s]=Array[s];
-s++;
-}
-temp[s]=data;
-Array[SizeT];
-s=0;
-while(s<SizeB){
-Array[s]=temp[s];
-s++;
-}
-
-
-
-return;
-}	*/
-
-
-void sort(){
+void Selectsort(){
 int SIZE = size;
 int i = 0;
 int k = 0;
@@ -377,14 +275,5 @@ for(i = 0; i<SIZE; i++){
 	}
       }
 	}	
-	
-	
-		
-
-
-
-
-
-
 return;
 }
