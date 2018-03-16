@@ -1,3 +1,5 @@
+//Assignment 4 Matrix Exponention with added calculators for inverse matrix exponentiation (Ex: A^-2=(A^-1)(A^-1), A^2 = (A*A))
+
 #include <stdlib.h>
 #include <unistd.h>
 #include <stdio.h>
