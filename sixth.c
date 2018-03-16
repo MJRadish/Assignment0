@@ -1,3 +1,7 @@
+//Given a string from argument 1, compress the string such that the outputted string contains each letter followed by the number of repetitions of the letter.
+//If the compressed string is longer than the original string, output the original string.
+//EX: INPUT: ggghaveaaaGgGGood
+//    OUTPUT: ggghaveaaaGgGGood, because the compressed string, g3h1a1v1e1a3G1g1G2o2d1 is longer than the original string.
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
