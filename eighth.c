@@ -1,3 +1,10 @@
+//Binary Tree in C, reads from a txt file in the format:
+//i	5 (i->tab->data_to_insert)
+//s	4  (i->tab->data_to_search_for)
+//d	6 (d->tab->data_to_delete)
+//Outputs the contents of the tree
+
+
 # include <stdlib.h>
 # include <unistd.h>
 # include <stdio.h>
