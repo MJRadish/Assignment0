@@ -1,3 +1,6 @@
+//Output the string containing the last charactors of each word inputted.
+//EX: INPUT: Hello World!
+//    OUTPUT: o!
 #include <stdlib.h>
 #include <unistd.h>
 #include <stdio.h>
