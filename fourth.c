@@ -355,13 +355,6 @@ return 0;
 
 }//	end elsei
 
-
-
-/*freeMatrix(MATRIX);
-freeMatrix(EMATRIX);
-freeMatrix(CMATRIX);
-*/
-
 return 0;
 
 }
@@ -572,8 +565,7 @@ for (i=0; i<NXN; i++){
 }
 
 //printf("\nNEW MATRIX\n\n");
-//printMatrixData(NXN,NewM);
-
+//printMatrixData(NXN,NewM)
 //freeMatrix(Matrix1);
 //freeMatrix(Matrix2);
 /*
@@ -585,13 +577,9 @@ Matrix1[k][i]=NewM[k][i];
 }
 }
 
-freeMatrix(NewM);
-
+freeMatrix(NewM
 */
-
-
-//freeMatrix(Matrix1);
-
+	
 //Simpler to just return the new matrix
 return NewM;
 }
