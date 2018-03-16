@@ -1,3 +1,9 @@
+//Find the magic matrix, which is a matrix which the sum of all of each row,column, and diagonals are equal to the same number.
+//EX:
+/*1 1 1
+  1 1 1	Is a Magic matrix, because the sum of each row is 3, the sum of each column is 3, and the sum of each diagonal is 3.
+  1 1 1
+*/
 #include <stdlib.h>
 #include <unistd.h>
 #include <stdio.h>
