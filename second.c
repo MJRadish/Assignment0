@@ -1,4 +1,5 @@
 //Non-Static Array Second Assignment
+//Hash function was provide by: https://github.com/aappleby/smhasher/tree/master/src
 
 #include <stdlib.h>
 #include <unistd.h>
